@@ -1,0 +1,5 @@
+representacao,total_tokens,tamanho_vocabulario,media_tokens_por_documento
+tokens_normalizados,274716,14413,27.46
+sem_stopwords,156696,13999,15.66
+stemming,156696,7142,15.66
+lemmatizacao,170341,10881,17.03

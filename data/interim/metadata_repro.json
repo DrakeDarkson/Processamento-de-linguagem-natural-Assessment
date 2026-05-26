@@ -1,0 +1,26 @@
+{
+    "nome_corpus": "RePro - Review of Products",
+    "descricao": "Corpus de avaliações de produtos de e-commerce em português brasileiro, anotado com sentimento e tópicos.",
+    "dataset_huggingface": "lucasnil/repro",
+    "arquivo_raw": "data\\raw\\repro_raw.csv",
+    "arquivo_intermediario": "data\\interim\\repro_base.csv",
+    "n_documentos": 10003,
+    "n_colunas": 15,
+    "colunas_utilizadas": [
+        "doc_id",
+        "review_title",
+        "review_text",
+        "text_raw",
+        "overall_rating",
+        "recommend_to_a_friend",
+        "product_name",
+        "product_brand",
+        "site_category_lv1",
+        "site_category_lv2",
+        "reviewer_state",
+        "topics",
+        "polarity",
+        "text_length_chars",
+        "text_length_words"
+    ]
+}
