@@ -1,0 +1,783 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-27">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="relation" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="node_type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="categoria::Celulares e Smartphones" label="Celulares e Smartphones">
+        <attvalues>
+          <attvalue for="0" value="categoria" />
+        </attvalues>
+      </node>
+      <node id="sentimento::positivo" label="positivo">
+        <attvalues>
+          <attvalue for="0" value="sentimento" />
+        </attvalues>
+      </node>
+      <node id="padrao::preco_valor" label="preco_valor">
+        <attvalues>
+          <attvalue for="0" value="padrao" />
+        </attvalues>
+      </node>
+      <node id="padrao::qualidade_produto" label="qualidade_produto">
+        <attvalues>
+          <attvalue for="0" value="padrao" />
+        </attvalues>
+      </node>
+      <node id="categoria::TV e Home Theater" label="TV e Home Theater">
+        <attvalues>
+          <attvalue for="0" value="categoria" />
+        </attvalues>
+      </node>
+      <node id="padrao::entrega_logistica" label="entrega_logistica">
+        <attvalues>
+          <attvalue for="0" value="padrao" />
+        </attvalues>
+      </node>
+      <node id="categoria::Beleza e Perfumaria" label="Beleza e Perfumaria">
+        <attvalues>
+          <attvalue for="0" value="categoria" />
+        </attvalues>
+      </node>
+      <node id="marca::motorola" label="motorola">
+        <attvalues>
+          <attvalue for="0" value="marca" />
+        </attvalues>
+      </node>
+      <node id="sentimento::negativo" label="negativo">
+        <attvalues>
+          <attvalue for="0" value="sentimento" />
+        </attvalues>
+      </node>
+      <node id="categoria::Informática e Acessórios" label="Informática e Acessórios">
+        <attvalues>
+          <attvalue for="0" value="categoria" />
+        </attvalues>
+      </node>
+      <node id="categoria::Utilidades Domésticas" label="Utilidades Domésticas">
+        <attvalues>
+          <attvalue for="0" value="categoria" />
+        </attvalues>
+      </node>
+      <node id="marca::tramontina" label="tramontina">
+        <attvalues>
+          <attvalue for="0" value="marca" />
+        </attvalues>
+      </node>
+      <node id="categoria::Brinquedos" label="Brinquedos">
+        <attvalues>
+          <attvalue for="0" value="categoria" />
+        </attvalues>
+      </node>
+      <node id="categoria::Móveis" label="Móveis">
+        <attvalues>
+          <attvalue for="0" value="categoria" />
+        </attvalues>
+      </node>
+      <node id="padrao::defeito_funcionamento" label="defeito_funcionamento">
+        <attvalues>
+          <attvalue for="0" value="padrao" />
+        </attvalues>
+      </node>
+      <node id="categoria::Eletroportáteis" label="Eletroportáteis">
+        <attvalues>
+          <attvalue for="0" value="categoria" />
+        </attvalues>
+      </node>
+      <node id="marca::philco" label="philco">
+        <attvalues>
+          <attvalue for="0" value="marca" />
+        </attvalues>
+      </node>
+      <node id="padrao::atendimento_suporte" label="atendimento_suporte">
+        <attvalues>
+          <attvalue for="0" value="padrao" />
+        </attvalues>
+      </node>
+      <node id="marca::samsung" label="samsung">
+        <attvalues>
+          <attvalue for="0" value="marca" />
+        </attvalues>
+      </node>
+      <node id="marca::lg" label="lg">
+        <attvalues>
+          <attvalue for="0" value="marca" />
+        </attvalues>
+      </node>
+      <node id="marca::cadence" label="cadence">
+        <attvalues>
+          <attvalue for="0" value="marca" />
+        </attvalues>
+      </node>
+      <node id="padrao::anuncio_descricao" label="anuncio_descricao">
+        <attvalues>
+          <attvalue for="0" value="padrao" />
+        </attvalues>
+      </node>
+      <node id="marca::mondial" label="mondial">
+        <attvalues>
+          <attvalue for="0" value="marca" />
+        </attvalues>
+      </node>
+      <node id="marca::britania" label="britania">
+        <attvalues>
+          <attvalue for="0" value="marca" />
+        </attvalues>
+      </node>
+      <node id="marca::arno" label="arno">
+        <attvalues>
+          <attvalue for="0" value="marca" />
+        </attvalues>
+      </node>
+      <node id="marca::philips" label="philips">
+        <attvalues>
+          <attvalue for="0" value="marca" />
+        </attvalues>
+      </node>
+      <node id="marca::electrolux" label="electrolux">
+        <attvalues>
+          <attvalue for="0" value="marca" />
+        </attvalues>
+      </node>
+      <node id="marca::consul" label="consul">
+        <attvalues>
+          <attvalue for="0" value="marca" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="categoria::Celulares e Smartphones" target="sentimento::positivo" id="0" weight="744">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Celulares e Smartphones" target="padrao::preco_valor" id="1" weight="260">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Celulares e Smartphones" target="padrao::qualidade_produto" id="2" weight="971">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Celulares e Smartphones" target="marca::motorola" id="3" weight="94">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Celulares e Smartphones" target="sentimento::negativo" id="4" weight="429">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Celulares e Smartphones" target="padrao::entrega_logistica" id="5" weight="576">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Celulares e Smartphones" target="marca::samsung" id="6" weight="332">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Celulares e Smartphones" target="marca::lg" id="7" weight="128">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Celulares e Smartphones" target="padrao::atendimento_suporte" id="8" weight="101">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Celulares e Smartphones" target="padrao::defeito_funcionamento" id="9" weight="201">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Celulares e Smartphones" target="padrao::anuncio_descricao" id="10" weight="97">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="padrao::preco_valor" id="11" weight="388">
+        <attvalues>
+          <attvalue for="1" value="padrao_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="padrao::qualidade_produto" id="12" weight="1961">
+        <attvalues>
+          <attvalue for="1" value="padrao_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="categoria::TV e Home Theater" id="13" weight="228">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="padrao::entrega_logistica" id="14" weight="931">
+        <attvalues>
+          <attvalue for="1" value="padrao_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="marca::motorola" id="15" weight="40">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="marca::samsung" id="16" weight="238">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="marca::lg" id="17" weight="109">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="categoria::Móveis" id="18" weight="149">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="categoria::Eletroportáteis" id="19" weight="446">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="padrao::atendimento_suporte" id="20" weight="57">
+        <attvalues>
+          <attvalue for="1" value="padrao_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="marca::cadence" id="21" weight="57">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="categoria::Brinquedos" id="22" weight="143">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="marca::philco" id="23" weight="108">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="padrao::anuncio_descricao" id="24" weight="115">
+        <attvalues>
+          <attvalue for="1" value="padrao_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="categoria::Informática e Acessórios" id="25" weight="215">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="categoria::Beleza e Perfumaria" id="26" weight="296">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="padrao::defeito_funcionamento" id="27" weight="139">
+        <attvalues>
+          <attvalue for="1" value="padrao_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="marca::britania" id="28" weight="42">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="categoria::Utilidades Domésticas" id="29" weight="266">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="marca::arno" id="30" weight="35">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="marca::philips" id="31" weight="48">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="marca::tramontina" id="32" weight="45">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="marca::mondial" id="33" weight="42">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="marca::electrolux" id="34" weight="22">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::positivo" target="marca::consul" id="35" weight="11">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::preco_valor" target="categoria::Brinquedos" id="36" weight="45">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::preco_valor" target="sentimento::negativo" id="37" weight="230">
+        <attvalues>
+          <attvalue for="1" value="padrao_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::preco_valor" target="categoria::Utilidades Domésticas" id="38" weight="78">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::preco_valor" target="categoria::Eletroportáteis" id="39" weight="109">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::preco_valor" target="categoria::Informática e Acessórios" id="40" weight="92">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::preco_valor" target="categoria::Móveis" id="41" weight="69">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::preco_valor" target="categoria::Beleza e Perfumaria" id="42" weight="92">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::preco_valor" target="categoria::TV e Home Theater" id="43" weight="70">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::qualidade_produto" target="categoria::Beleza e Perfumaria" id="44" weight="382">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::qualidade_produto" target="sentimento::negativo" id="45" weight="547">
+        <attvalues>
+          <attvalue for="1" value="padrao_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::qualidade_produto" target="categoria::TV e Home Theater" id="46" weight="322">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::qualidade_produto" target="categoria::Móveis" id="47" weight="273">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::qualidade_produto" target="categoria::Eletroportáteis" id="48" weight="534">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::qualidade_produto" target="categoria::Brinquedos" id="49" weight="193">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::qualidade_produto" target="categoria::Informática e Acessórios" id="50" weight="312">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::qualidade_produto" target="categoria::Utilidades Domésticas" id="51" weight="364">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::TV e Home Theater" target="padrao::entrega_logistica" id="52" weight="188">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::TV e Home Theater" target="sentimento::negativo" id="53" weight="178">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::TV e Home Theater" target="marca::lg" id="54" weight="68">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::TV e Home Theater" target="padrao::anuncio_descricao" id="55" weight="127">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::TV e Home Theater" target="marca::samsung" id="56" weight="43">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::TV e Home Theater" target="padrao::defeito_funcionamento" id="57" weight="93">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::TV e Home Theater" target="marca::philco" id="58" weight="17">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::TV e Home Theater" target="padrao::atendimento_suporte" id="59" weight="55">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::TV e Home Theater" target="marca::philips" id="60" weight="19">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::entrega_logistica" target="categoria::Brinquedos" id="61" weight="152">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::entrega_logistica" target="sentimento::negativo" id="62" weight="721">
+        <attvalues>
+          <attvalue for="1" value="padrao_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::entrega_logistica" target="categoria::Móveis" id="63" weight="290">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::entrega_logistica" target="categoria::Eletroportáteis" id="64" weight="243">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::entrega_logistica" target="categoria::Beleza e Perfumaria" id="65" weight="227">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::entrega_logistica" target="categoria::Utilidades Domésticas" id="66" weight="183">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::entrega_logistica" target="categoria::Informática e Acessórios" id="67" weight="188">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Beleza e Perfumaria" target="sentimento::negativo" id="68" weight="237">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Beleza e Perfumaria" target="padrao::defeito_funcionamento" id="69" weight="84">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Beleza e Perfumaria" target="padrao::anuncio_descricao" id="70" weight="48">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Beleza e Perfumaria" target="marca::mondial" id="71" weight="36">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Beleza e Perfumaria" target="padrao::atendimento_suporte" id="72" weight="45">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Beleza e Perfumaria" target="marca::philco" id="73" weight="37">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Beleza e Perfumaria" target="marca::philips" id="74" weight="42">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Beleza e Perfumaria" target="marca::cadence" id="75" weight="1">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="marca::motorola" target="sentimento::negativo" id="76" weight="32">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="categoria::Informática e Acessórios" id="77" weight="218">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="categoria::Eletroportáteis" id="78" weight="203">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="marca::philco" id="79" weight="43">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="padrao::atendimento_suporte" id="80" weight="259">
+        <attvalues>
+          <attvalue for="1" value="padrao_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="categoria::Brinquedos" id="81" weight="136">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="categoria::Móveis" id="82" weight="292">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="padrao::anuncio_descricao" id="83" weight="228">
+        <attvalues>
+          <attvalue for="1" value="padrao_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="marca::lg" id="84" weight="45">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="padrao::defeito_funcionamento" id="85" weight="426">
+        <attvalues>
+          <attvalue for="1" value="padrao_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="marca::samsung" id="86" weight="74">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="categoria::Utilidades Domésticas" id="87" weight="219">
+        <attvalues>
+          <attvalue for="1" value="categoria_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="marca::cadence" id="88" weight="22">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="marca::arno" id="89" weight="10">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="marca::philips" id="90" weight="10">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="marca::tramontina" id="91" weight="6">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="marca::britania" id="92" weight="8">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="marca::mondial" id="93" weight="18">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="marca::electrolux" id="94" weight="11">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="sentimento::negativo" target="marca::consul" id="95" weight="3">
+        <attvalues>
+          <attvalue for="1" value="marca_sentimento" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Informática e Acessórios" target="marca::lg" id="96" weight="5">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Informática e Acessórios" target="padrao::atendimento_suporte" id="97" weight="42">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Informática e Acessórios" target="padrao::anuncio_descricao" id="98" weight="44">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Informática e Acessórios" target="padrao::defeito_funcionamento" id="99" weight="111">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Informática e Acessórios" target="marca::philips" id="100" weight="1">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Informática e Acessórios" target="marca::samsung" id="101" weight="4">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Utilidades Domésticas" target="marca::tramontina" id="102" weight="70">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Utilidades Domésticas" target="padrao::anuncio_descricao" id="103" weight="51">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Utilidades Domésticas" target="padrao::defeito_funcionamento" id="104" weight="63">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Utilidades Domésticas" target="padrao::atendimento_suporte" id="105" weight="21">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Utilidades Domésticas" target="marca::electrolux" id="106" weight="1">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Utilidades Domésticas" target="marca::consul" id="107" weight="1">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Brinquedos" target="padrao::defeito_funcionamento" id="108" weight="44">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Brinquedos" target="padrao::atendimento_suporte" id="109" weight="33">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Brinquedos" target="padrao::anuncio_descricao" id="110" weight="40">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Móveis" target="padrao::defeito_funcionamento" id="111" weight="47">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Móveis" target="padrao::anuncio_descricao" id="112" weight="69">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Móveis" target="padrao::atendimento_suporte" id="113" weight="59">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="padrao::defeito_funcionamento" target="categoria::Eletroportáteis" id="114" weight="121">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Eletroportáteis" target="marca::philco" id="115" weight="139">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Eletroportáteis" target="padrao::atendimento_suporte" id="116" weight="39">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Eletroportáteis" target="marca::cadence" id="117" weight="100">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Eletroportáteis" target="marca::britania" id="118" weight="67">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Eletroportáteis" target="marca::arno" id="119" weight="55">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Eletroportáteis" target="marca::mondial" id="120" weight="41">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Eletroportáteis" target="padrao::anuncio_descricao" id="121" weight="17">
+        <attvalues>
+          <attvalue for="1" value="categoria_padrao" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Eletroportáteis" target="marca::electrolux" id="122" weight="41">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Eletroportáteis" target="marca::philips" id="123" weight="13">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+      <edge source="categoria::Eletroportáteis" target="marca::consul" id="124" weight="16">
+        <attvalues>
+          <attvalue for="1" value="categoria_marca" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

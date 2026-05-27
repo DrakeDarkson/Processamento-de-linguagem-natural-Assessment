@@ -26,7 +26,7 @@ Construir um pipeline completo de Processamento de Linguagem Natural para transf
 - `data/raw/`: dados brutos.
 - `data/interim/`: dados intermediários.
 - `data/processed/`: dados processados.
-- `notebooks/`: notebooks do projeto.
+- `main_end_to_end_pln.ipynb`: notebook principal end-to-end do projeto.
 - `outputs/figures/`: figuras geradas.
 - `outputs/tables/`: tabelas geradas.
 - `outputs/models/`: modelos salvos.

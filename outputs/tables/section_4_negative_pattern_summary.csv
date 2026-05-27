@@ -1,0 +1,7 @@
+pattern,documentos_total,ocorrencias_total,documentos_negativos,ocorrencias_negativas,proporcao_documentos_negativos
+entrega_logistica,3512,6325,1275,2658,0.3630410022779043
+qualidade_produto,5684,10531,959,1592,0.1687192118226601
+defeito_funcionamento,1290,1962,718,1205,0.5565891472868217
+anuncio_descricao,895,1276,464,723,0.5184357541899441
+atendimento_suporte,660,875,443,613,0.6712121212121213
+preco_valor,1388,1774,420,548,0.3025936599423631

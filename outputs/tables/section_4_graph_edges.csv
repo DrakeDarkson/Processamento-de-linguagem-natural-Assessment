@@ -1,0 +1,126 @@
+source,target,source_label,target_label,relation,weight
+sentimento::positivo,padrao::qualidade_produto,positivo,qualidade_produto,padrao_sentimento,1961
+categoria::Celulares e Smartphones,padrao::qualidade_produto,Celulares e Smartphones,qualidade_produto,categoria_padrao,971
+sentimento::positivo,padrao::entrega_logistica,positivo,entrega_logistica,padrao_sentimento,931
+categoria::Celulares e Smartphones,sentimento::positivo,Celulares e Smartphones,positivo,categoria_sentimento,744
+padrao::entrega_logistica,sentimento::negativo,entrega_logistica,negativo,padrao_sentimento,721
+categoria::Celulares e Smartphones,padrao::entrega_logistica,Celulares e Smartphones,entrega_logistica,categoria_padrao,576
+padrao::qualidade_produto,sentimento::negativo,qualidade_produto,negativo,padrao_sentimento,547
+padrao::qualidade_produto,categoria::Eletroportáteis,qualidade_produto,Eletroportáteis,categoria_padrao,534
+sentimento::positivo,categoria::Eletroportáteis,positivo,Eletroportáteis,categoria_sentimento,446
+categoria::Celulares e Smartphones,sentimento::negativo,Celulares e Smartphones,negativo,categoria_sentimento,429
+sentimento::negativo,padrao::defeito_funcionamento,negativo,defeito_funcionamento,padrao_sentimento,426
+sentimento::positivo,padrao::preco_valor,positivo,preco_valor,padrao_sentimento,388
+padrao::qualidade_produto,categoria::Beleza e Perfumaria,qualidade_produto,Beleza e Perfumaria,categoria_padrao,382
+padrao::qualidade_produto,categoria::Utilidades Domésticas,qualidade_produto,Utilidades Domésticas,categoria_padrao,364
+categoria::Celulares e Smartphones,marca::samsung,Celulares e Smartphones,samsung,categoria_marca,332
+padrao::qualidade_produto,categoria::TV e Home Theater,qualidade_produto,TV e Home Theater,categoria_padrao,322
+padrao::qualidade_produto,categoria::Informática e Acessórios,qualidade_produto,Informática e Acessórios,categoria_padrao,312
+sentimento::positivo,categoria::Beleza e Perfumaria,positivo,Beleza e Perfumaria,categoria_sentimento,296
+sentimento::negativo,categoria::Móveis,negativo,Móveis,categoria_sentimento,292
+padrao::entrega_logistica,categoria::Móveis,entrega_logistica,Móveis,categoria_padrao,290
+padrao::qualidade_produto,categoria::Móveis,qualidade_produto,Móveis,categoria_padrao,273
+sentimento::positivo,categoria::Utilidades Domésticas,positivo,Utilidades Domésticas,categoria_sentimento,266
+categoria::Celulares e Smartphones,padrao::preco_valor,Celulares e Smartphones,preco_valor,categoria_padrao,260
+sentimento::negativo,padrao::atendimento_suporte,negativo,atendimento_suporte,padrao_sentimento,259
+padrao::entrega_logistica,categoria::Eletroportáteis,entrega_logistica,Eletroportáteis,categoria_padrao,243
+sentimento::positivo,marca::samsung,positivo,samsung,marca_sentimento,238
+categoria::Beleza e Perfumaria,sentimento::negativo,Beleza e Perfumaria,negativo,categoria_sentimento,237
+padrao::preco_valor,sentimento::negativo,preco_valor,negativo,padrao_sentimento,230
+sentimento::positivo,categoria::TV e Home Theater,positivo,TV e Home Theater,categoria_sentimento,228
+sentimento::negativo,padrao::anuncio_descricao,negativo,anuncio_descricao,padrao_sentimento,228
+padrao::entrega_logistica,categoria::Beleza e Perfumaria,entrega_logistica,Beleza e Perfumaria,categoria_padrao,227
+sentimento::negativo,categoria::Utilidades Domésticas,negativo,Utilidades Domésticas,categoria_sentimento,219
+sentimento::negativo,categoria::Informática e Acessórios,negativo,Informática e Acessórios,categoria_sentimento,218
+sentimento::positivo,categoria::Informática e Acessórios,positivo,Informática e Acessórios,categoria_sentimento,215
+sentimento::negativo,categoria::Eletroportáteis,negativo,Eletroportáteis,categoria_sentimento,203
+categoria::Celulares e Smartphones,padrao::defeito_funcionamento,Celulares e Smartphones,defeito_funcionamento,categoria_padrao,201
+padrao::qualidade_produto,categoria::Brinquedos,qualidade_produto,Brinquedos,categoria_padrao,193
+categoria::TV e Home Theater,padrao::entrega_logistica,TV e Home Theater,entrega_logistica,categoria_padrao,188
+padrao::entrega_logistica,categoria::Informática e Acessórios,entrega_logistica,Informática e Acessórios,categoria_padrao,188
+padrao::entrega_logistica,categoria::Utilidades Domésticas,entrega_logistica,Utilidades Domésticas,categoria_padrao,183
+categoria::TV e Home Theater,sentimento::negativo,TV e Home Theater,negativo,categoria_sentimento,178
+padrao::entrega_logistica,categoria::Brinquedos,entrega_logistica,Brinquedos,categoria_padrao,152
+sentimento::positivo,categoria::Móveis,positivo,Móveis,categoria_sentimento,149
+sentimento::positivo,categoria::Brinquedos,positivo,Brinquedos,categoria_sentimento,143
+sentimento::positivo,padrao::defeito_funcionamento,positivo,defeito_funcionamento,padrao_sentimento,139
+categoria::Eletroportáteis,marca::philco,Eletroportáteis,philco,categoria_marca,139
+sentimento::negativo,categoria::Brinquedos,negativo,Brinquedos,categoria_sentimento,136
+categoria::Celulares e Smartphones,marca::lg,Celulares e Smartphones,lg,categoria_marca,128
+categoria::TV e Home Theater,padrao::anuncio_descricao,TV e Home Theater,anuncio_descricao,categoria_padrao,127
+padrao::defeito_funcionamento,categoria::Eletroportáteis,defeito_funcionamento,Eletroportáteis,categoria_padrao,121
+sentimento::positivo,padrao::anuncio_descricao,positivo,anuncio_descricao,padrao_sentimento,115
+categoria::Informática e Acessórios,padrao::defeito_funcionamento,Informática e Acessórios,defeito_funcionamento,categoria_padrao,111
+sentimento::positivo,marca::lg,positivo,lg,marca_sentimento,109
+padrao::preco_valor,categoria::Eletroportáteis,preco_valor,Eletroportáteis,categoria_padrao,109
+sentimento::positivo,marca::philco,positivo,philco,marca_sentimento,108
+categoria::Celulares e Smartphones,padrao::atendimento_suporte,Celulares e Smartphones,atendimento_suporte,categoria_padrao,101
+categoria::Eletroportáteis,marca::cadence,Eletroportáteis,cadence,categoria_marca,100
+categoria::Celulares e Smartphones,padrao::anuncio_descricao,Celulares e Smartphones,anuncio_descricao,categoria_padrao,97
+categoria::Celulares e Smartphones,marca::motorola,Celulares e Smartphones,motorola,categoria_marca,94
+categoria::TV e Home Theater,padrao::defeito_funcionamento,TV e Home Theater,defeito_funcionamento,categoria_padrao,93
+padrao::preco_valor,categoria::Informática e Acessórios,preco_valor,Informática e Acessórios,categoria_padrao,92
+padrao::preco_valor,categoria::Beleza e Perfumaria,preco_valor,Beleza e Perfumaria,categoria_padrao,92
+categoria::Beleza e Perfumaria,padrao::defeito_funcionamento,Beleza e Perfumaria,defeito_funcionamento,categoria_padrao,84
+padrao::preco_valor,categoria::Utilidades Domésticas,preco_valor,Utilidades Domésticas,categoria_padrao,78
+sentimento::negativo,marca::samsung,negativo,samsung,marca_sentimento,74
+categoria::Utilidades Domésticas,marca::tramontina,Utilidades Domésticas,tramontina,categoria_marca,70
+padrao::preco_valor,categoria::TV e Home Theater,preco_valor,TV e Home Theater,categoria_padrao,70
+padrao::preco_valor,categoria::Móveis,preco_valor,Móveis,categoria_padrao,69
+categoria::Móveis,padrao::anuncio_descricao,Móveis,anuncio_descricao,categoria_padrao,69
+categoria::TV e Home Theater,marca::lg,TV e Home Theater,lg,categoria_marca,68
+categoria::Eletroportáteis,marca::britania,Eletroportáteis,britania,categoria_marca,67
+categoria::Utilidades Domésticas,padrao::defeito_funcionamento,Utilidades Domésticas,defeito_funcionamento,categoria_padrao,63
+categoria::Móveis,padrao::atendimento_suporte,Móveis,atendimento_suporte,categoria_padrao,59
+sentimento::positivo,marca::cadence,positivo,cadence,marca_sentimento,57
+sentimento::positivo,padrao::atendimento_suporte,positivo,atendimento_suporte,padrao_sentimento,57
+categoria::TV e Home Theater,padrao::atendimento_suporte,TV e Home Theater,atendimento_suporte,categoria_padrao,55
+categoria::Eletroportáteis,marca::arno,Eletroportáteis,arno,categoria_marca,55
+categoria::Utilidades Domésticas,padrao::anuncio_descricao,Utilidades Domésticas,anuncio_descricao,categoria_padrao,51
+categoria::Beleza e Perfumaria,padrao::anuncio_descricao,Beleza e Perfumaria,anuncio_descricao,categoria_padrao,48
+sentimento::positivo,marca::philips,positivo,philips,marca_sentimento,48
+categoria::Móveis,padrao::defeito_funcionamento,Móveis,defeito_funcionamento,categoria_padrao,47
+categoria::Beleza e Perfumaria,padrao::atendimento_suporte,Beleza e Perfumaria,atendimento_suporte,categoria_padrao,45
+sentimento::positivo,marca::tramontina,positivo,tramontina,marca_sentimento,45
+padrao::preco_valor,categoria::Brinquedos,preco_valor,Brinquedos,categoria_padrao,45
+sentimento::negativo,marca::lg,negativo,lg,marca_sentimento,45
+categoria::Informática e Acessórios,padrao::anuncio_descricao,Informática e Acessórios,anuncio_descricao,categoria_padrao,44
+categoria::Brinquedos,padrao::defeito_funcionamento,Brinquedos,defeito_funcionamento,categoria_padrao,44
+categoria::TV e Home Theater,marca::samsung,TV e Home Theater,samsung,categoria_marca,43
+sentimento::negativo,marca::philco,negativo,philco,marca_sentimento,43
+categoria::Informática e Acessórios,padrao::atendimento_suporte,Informática e Acessórios,atendimento_suporte,categoria_padrao,42
+categoria::Beleza e Perfumaria,marca::philips,Beleza e Perfumaria,philips,categoria_marca,42
+sentimento::positivo,marca::britania,positivo,britania,marca_sentimento,42
+sentimento::positivo,marca::mondial,positivo,mondial,marca_sentimento,42
+categoria::Eletroportáteis,marca::mondial,Eletroportáteis,mondial,categoria_marca,41
+categoria::Eletroportáteis,marca::electrolux,Eletroportáteis,electrolux,categoria_marca,41
+categoria::Brinquedos,padrao::anuncio_descricao,Brinquedos,anuncio_descricao,categoria_padrao,40
+sentimento::positivo,marca::motorola,positivo,motorola,marca_sentimento,40
+categoria::Eletroportáteis,padrao::atendimento_suporte,Eletroportáteis,atendimento_suporte,categoria_padrao,39
+categoria::Beleza e Perfumaria,marca::philco,Beleza e Perfumaria,philco,categoria_marca,37
+categoria::Beleza e Perfumaria,marca::mondial,Beleza e Perfumaria,mondial,categoria_marca,36
+sentimento::positivo,marca::arno,positivo,arno,marca_sentimento,35
+categoria::Brinquedos,padrao::atendimento_suporte,Brinquedos,atendimento_suporte,categoria_padrao,33
+marca::motorola,sentimento::negativo,motorola,negativo,marca_sentimento,32
+sentimento::negativo,marca::cadence,negativo,cadence,marca_sentimento,22
+sentimento::positivo,marca::electrolux,positivo,electrolux,marca_sentimento,22
+categoria::Utilidades Domésticas,padrao::atendimento_suporte,Utilidades Domésticas,atendimento_suporte,categoria_padrao,21
+categoria::TV e Home Theater,marca::philips,TV e Home Theater,philips,categoria_marca,19
+sentimento::negativo,marca::mondial,negativo,mondial,marca_sentimento,18
+categoria::TV e Home Theater,marca::philco,TV e Home Theater,philco,categoria_marca,17
+categoria::Eletroportáteis,padrao::anuncio_descricao,Eletroportáteis,anuncio_descricao,categoria_padrao,17
+categoria::Eletroportáteis,marca::consul,Eletroportáteis,consul,categoria_marca,16
+categoria::Eletroportáteis,marca::philips,Eletroportáteis,philips,categoria_marca,13
+sentimento::positivo,marca::consul,positivo,consul,marca_sentimento,11
+sentimento::negativo,marca::electrolux,negativo,electrolux,marca_sentimento,11
+sentimento::negativo,marca::arno,negativo,arno,marca_sentimento,10
+sentimento::negativo,marca::philips,negativo,philips,marca_sentimento,10
+sentimento::negativo,marca::britania,negativo,britania,marca_sentimento,8
+sentimento::negativo,marca::tramontina,negativo,tramontina,marca_sentimento,6
+categoria::Informática e Acessórios,marca::lg,Informática e Acessórios,lg,categoria_marca,5
+categoria::Informática e Acessórios,marca::samsung,Informática e Acessórios,samsung,categoria_marca,4
+sentimento::negativo,marca::consul,negativo,consul,marca_sentimento,3
+categoria::Beleza e Perfumaria,marca::cadence,Beleza e Perfumaria,cadence,categoria_marca,1
+categoria::Utilidades Domésticas,marca::consul,Utilidades Domésticas,consul,categoria_marca,1
+categoria::Informática e Acessórios,marca::philips,Informática e Acessórios,philips,categoria_marca,1
+categoria::Utilidades Domésticas,marca::electrolux,Utilidades Domésticas,electrolux,categoria_marca,1

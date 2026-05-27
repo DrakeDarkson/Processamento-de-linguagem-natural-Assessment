@@ -1,0 +1,29 @@
+node_id,label,node_type,degree,weighted_degree,degree_centrality,betweenness_centrality
+sentimento::positivo,positivo,sentimento,26,6875,0.9629629629629629,0.0
+padrao::qualidade_produto,qualidade_produto,padrao,10,5859,0.37037037037037035,0.0
+sentimento::negativo,negativo,sentimento,26,4605,0.9629629629629629,0.5427350427350428
+categoria::Celulares e Smartphones,Celulares e Smartphones,categoria,11,3933,0.4074074074074074,0.0
+padrao::entrega_logistica,entrega_logistica,padrao,10,3699,0.37037037037037035,0.0
+categoria::Eletroportáteis,Eletroportáteis,categoria,16,2184,0.5925925925925926,0.06267806267806268
+categoria::Beleza e Perfumaria,Beleza e Perfumaria,categoria,12,1527,0.4444444444444444,0.02849002849002849
+padrao::preco_valor,preco_valor,padrao,10,1433,0.37037037037037035,0.0
+categoria::TV e Home Theater,TV e Home Theater,categoria,12,1408,0.4444444444444444,0.038461538461538464
+padrao::defeito_funcionamento,defeito_funcionamento,padrao,10,1329,0.37037037037037035,0.005698005698005698
+categoria::Utilidades Domésticas,Utilidades Domésticas,categoria,11,1317,0.4074074074074074,0.34615384615384615
+categoria::Móveis,Móveis,categoria,8,1248,0.2962962962962963,0.0
+categoria::Informática e Acessórios,Informática e Acessórios,categoria,11,1232,0.4074074074074074,0.1452991452991453
+padrao::anuncio_descricao,anuncio_descricao,padrao,10,836,0.37037037037037035,0.03133903133903134
+categoria::Brinquedos,Brinquedos,categoria,8,786,0.2962962962962963,0.10826210826210826
+padrao::atendimento_suporte,atendimento_suporte,padrao,10,711,0.37037037037037035,0.18803418803418803
+marca::samsung,samsung,marca,5,691,0.18518518518518517,0.0
+marca::lg,lg,marca,5,355,0.18518518518518517,0.0
+marca::philco,philco,marca,5,344,0.18518518518518517,0.0
+marca::cadence,cadence,marca,4,180,0.14814814814814814,0.045584045584045586
+marca::motorola,motorola,marca,3,166,0.1111111111111111,0.008547008547008548
+marca::mondial,mondial,marca,4,137,0.14814814814814814,0.0
+marca::philips,philips,marca,6,133,0.2222222222222222,0.25641025641025644
+marca::tramontina,tramontina,marca,3,121,0.1111111111111111,0.0
+marca::britania,britania,marca,3,117,0.1111111111111111,0.0
+marca::arno,arno,marca,3,100,0.1111111111111111,0.0
+marca::electrolux,electrolux,marca,4,75,0.14814814814814814,0.0
+marca::consul,consul,marca,4,31,0.14814814814814814,0.4287749287749288

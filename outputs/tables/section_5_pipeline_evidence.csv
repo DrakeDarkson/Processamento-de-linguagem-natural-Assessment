@@ -1,0 +1,6 @@
+etapa,implementacao,evidencias
+1. Pré-processamento textual,"Tokenização, normalização, stopwords, stemming, lematização e POS tagging","Vocabulário, POS tags, termos frequentes, nuvem de palavras e histograma"
+2. Representação vetorial e busca,"Bag-of-Words, TF-IDF com unigramas e bigramas, similaridade por cosseno","Tabelas de vetorização, resultados de busca com scores e gráficos comparativos"
+3. Classificação de sentimento,Regressão Logística e SVM Linear com TF-IDF,"Métricas de classification, matriz de confusão e análise de erros"
+4. Extração de informação e grafo,"NER com spaCy, regex de domínio e grafo com NetworkX","Entidades, padrões, centralidade, grafo e análise de avaliações negativas"
+5. Comunicação e reprodutibilidade,"Consolidação de artefatos, indicadores, visualizações e síntese final","Inventário de arquivos, indicadores finais e síntese para stakeholder"

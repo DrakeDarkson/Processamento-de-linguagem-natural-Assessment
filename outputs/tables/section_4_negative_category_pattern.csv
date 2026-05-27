@@ -1,0 +1,21 @@
+category_lv1_clean,pattern,documentos_negativos,ocorrencias_negativas
+Celulares e Smartphones,entrega_logistica,156,358
+Móveis,entrega_logistica,153,351
+Celulares e Smartphones,qualidade_produto,114,170
+Celulares e Smartphones,defeito_funcionamento,109,201
+Informática e Acessórios,entrega_logistica,90,169
+Móveis,qualidade_produto,90,160
+Beleza e Perfumaria,entrega_logistica,79,160
+Informática e Acessórios,qualidade_produto,67,109
+Utilidades Domésticas,qualidade_produto,67,119
+Eletroportáteis,entrega_logistica,66,115
+Beleza e Perfumaria,qualidade_produto,62,95
+TV e Home Theater,entrega_logistica,61,135
+Utilidades Domésticas,entrega_logistica,60,116
+TV e Home Theater,defeito_funcionamento,60,103
+Eletroportáteis,defeito_funcionamento,60,108
+Eletroportáteis,qualidade_produto,58,95
+Celulares e Smartphones,atendimento_suporte,57,90
+Informática e Acessórios,defeito_funcionamento,57,101
+Brinquedos,entrega_logistica,56,120
+Casa e Construção,entrega_logistica,53,108

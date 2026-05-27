@@ -1,0 +1,31 @@
+{
+    "task": "classificacao_supervisionada_sentimento",
+    "target": "sentiment_label",
+    "classes": [
+        "negativo",
+        "positivo"
+    ],
+    "best_model": "SVM Linear",
+    "selection_metric": "f1_macro",
+    "metrics": {
+        "modelo": "SVM Linear",
+        "accuracy": 0.9504623513870541,
+        "precision_macro": 0.950024881614509,
+        "recall_macro": 0.950130153369917,
+        "f1_macro": 0.9500770936295206,
+        "precision_weighted": 0.9504689797169412,
+        "recall_weighted": 0.9504623513870541,
+        "f1_weighted": 0.9504652480619228
+    },
+    "text_column": "text_lemma",
+    "test_size": 0.2,
+    "random_state": 42,
+    "tfidf_params": {
+        "max_features": 5000,
+        "min_df": 3,
+        "ngram_range": [
+            1,
+            2
+        ]
+    }
+}

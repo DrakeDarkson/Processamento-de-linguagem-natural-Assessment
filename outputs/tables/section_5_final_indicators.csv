@@ -1,0 +1,8 @@
+dimensao,indicador,valor
+Corpus,Quantidade de documentos,10003
+Pré-processamento,Vocabulário lematizado,10623
+Representação vetorial,Termos na matriz TF-IDF,5000
+Classificação,Melhor modelo,SVM Linear
+Classificação,F1 macro do melhor modelo,0.9501
+Grafo,Quantidade de nós,28
+Grafo,Quantidade de arestas,125

@@ -1,0 +1,29 @@
+node_id,label,node_type
+categoria::Celulares e Smartphones,Celulares e Smartphones,categoria
+sentimento::positivo,positivo,sentimento
+padrao::preco_valor,preco_valor,padrao
+padrao::qualidade_produto,qualidade_produto,padrao
+categoria::TV e Home Theater,TV e Home Theater,categoria
+padrao::entrega_logistica,entrega_logistica,padrao
+categoria::Beleza e Perfumaria,Beleza e Perfumaria,categoria
+marca::motorola,motorola,marca
+sentimento::negativo,negativo,sentimento
+categoria::Informática e Acessórios,Informática e Acessórios,categoria
+categoria::Utilidades Domésticas,Utilidades Domésticas,categoria
+marca::tramontina,tramontina,marca
+categoria::Brinquedos,Brinquedos,categoria
+categoria::Móveis,Móveis,categoria
+padrao::defeito_funcionamento,defeito_funcionamento,padrao
+categoria::Eletroportáteis,Eletroportáteis,categoria
+marca::philco,philco,marca
+padrao::atendimento_suporte,atendimento_suporte,padrao
+marca::samsung,samsung,marca
+marca::lg,lg,marca
+marca::cadence,cadence,marca
+padrao::anuncio_descricao,anuncio_descricao,padrao
+marca::mondial,mondial,marca
+marca::britania,britania,marca
+marca::arno,arno,marca
+marca::philips,philips,marca
+marca::electrolux,electrolux,marca
+marca::consul,consul,marca
